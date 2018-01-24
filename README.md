@@ -98,3 +98,10 @@ Para instalar todos estois paquetes y dependencias utilizamos la siguiente líne
 Vamos a actualizar nuestro proyecto a la versión de angular 5:
 `npm install @angular/animations@next @angular/common@next @angular/compiler@next @angular/compiler-cli@next @angular/core@next @angular/forms@next @angular/http@next @angular/platform-browser@next @angular/platform-browser-dynamic@next @angular/platform-server@next @angular/router@next typescript@2.4.2 rxjs@'^5.5.2'
 `
+## Actualización de paquetes y dependencias 
+
+Buscamos las posibles actualizaciones
+`ncu -u`
+
+Instalamos las actulizaciones
+`npm install`

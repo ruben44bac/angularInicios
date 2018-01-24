@@ -105,3 +105,16 @@ Buscamos las posibles actualizaciones
 
 Instalamos las actulizaciones
 `npm install`
+
+## Component
+
+Angular se divide en módulos, componentes, clases y vistas. De forma muy general un módulo se encarga de reunir todos los componentes necesarios que van a  interactuar entre ellos y a su vez cada componente puede contar o no con una vista
+
+## Routing
+
+El uso del *routing* nos permite la navegación entre componentes y sus respectivas vistas
+
+* https://angular.io/guide/router
+
+El proyecto se divide en 3 componentes los cuales son `home`, `login` y `contact`. Creamos un `module` y un respectivo routing. El fin de esto es lograr dividir la carga de la alpicación en el primer ingreso a ella, permitiendo cargar componentes y vistas conforme vaya siendo necesario.
+
